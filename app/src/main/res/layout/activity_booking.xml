@@ -1,0 +1,325 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aakashmaroti.fillup.Booking" >
+
+    <ScrollView
+        android:id="@+id/scrollViewDestination"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+            
+            <Button
+                android:id="@+id/continueBooking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Continue" />
+
+            <Button
+                android:id="@+id/DoneBookingAtBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Submit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking Locations"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAllIndiaB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="All India" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSameAsDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="Same As Delivery" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="States :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <CheckBox
+                            android:id="@+id/bBangalore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bangalore" />
+
+                        <CheckBox
+                            android:id="@+id/bChennai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chennai" />
+
+                        <CheckBox
+                            android:id="@+id/bGreaterMumbai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Greater Mumbai" />
+
+                        <CheckBox
+                            android:id="@+id/bBhiwandi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bhiwandi" />
+
+                        <CheckBox
+                            android:id="@+id/bDelhi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delhi" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <CheckBox
+                            android:id="@+id/bPune"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pune" />
+
+                        <CheckBox
+                            android:id="@+id/bBaroda"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Baroda" />
+
+                        <CheckBox
+                            android:id="@+id/bAhmedabad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ahmedabad" />
+
+                        <CheckBox
+                            android:id="@+id/bNoida"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Noida" />
+
+                        <CheckBox
+                            android:id="@+id/bCalcutta"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calcutta" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <CheckBox
+                            android:id="@+id/bHyderabad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hyderabad" />
+
+                        <CheckBox
+                            android:id="@+id/bIndore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Indore" />
+
+                        <CheckBox
+                            android:id="@+id/bBaddi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Baddi" />
+
+                        <CheckBox
+                            android:id="@+id/bFaridabad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Faridabad" />
+
+                        <CheckBox
+                            android:id="@+id/bNagpur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nagpur" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <CheckBox
+                            android:id="@+id/bRudrapur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rudrapur" />
+
+                        <CheckBox
+                            android:id="@+id/bAurangabad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aurangabad" />
+
+                        <CheckBox
+                            android:id="@+id/bGhaziabad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ghaziabad" />
+
+                        <CheckBox
+                            android:id="@+id/bHosur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hosur" />
+
+                        <CheckBox
+                            android:id="@+id/bVapi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vapi" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <CheckBox
+                            android:id="@+id/bLudhiana"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ludhiana" />
+
+                        <CheckBox
+                            android:id="@+id/bGurgaon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gurgaon" />
+
+                        <CheckBox
+                            android:id="@+id/bBhiwadi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bhiwadi" />
+
+                        <CheckBox
+                            android:id="@+id/bPanjim"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Panjim" />
+
+                        <CheckBox
+                            android:id="@+id/bNaviMumbai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Navi Mumbai" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <CheckBox
+                            android:id="@+id/bZirakpur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Zirakpur" />
+
+                        <CheckBox
+                            android:id="@+id/bPithampur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pithampur" />
+
+                        <CheckBox
+                            android:id="@+id/bNasik"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nasik" />
+
+                        <CheckBox
+                            android:id="@+id/bMumbaiCity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mumbai City" />
+
+                        <CheckBox
+                            android:id="@+id/bVasai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vasai" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/Dloc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Booking Location(s) (Other):" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <MultiAutoCompleteTextView
+                    android:id="@+id/BookingLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Eg: Kolkata, Jaipur,"
+                    android:imeOptions="actionDone"
+                    android:inputType="textCapWords"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

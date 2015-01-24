@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShipMyCargo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_form">Form</string>
+
+    <string-array name="ProductStringArray">
+        <item>Select Option</item>
+        <item>PTL</item>
+        <item>FTL</item>
+        <item>Movers and Packers</item>
+        <item>Air</item>
+        <item>Rail</item>
+        <item>Select Option</item>
+        <item>Cold Chain</item>
+        <item>FTL and LTL</item>
+        <item>Air</item>
+        <item>Freight Forwarding</item>
+        <item>Warehousing</item>
+        <item>3PL</item>
+        <item>Contract Logistics</item>
+    </string-array>
+    <string-array name="DesignationContactPerson">
+        <item>Sales Head</item>
+        <item>Sales Executive</item>
+        <item>Operations Executives</item>
+        <item>Finance Executive</item>
+        <item>Sales and Operation Executive</item>
+        <item>Computer Operator</item>
+        <item>Promoter</item>
+    </string-array>
+
+    <string-array name="VehicleBodyArray">
+        <item>Open Body</item>
+        <item>Closed Body</item>
+        <item>Trailers</item>
+        <item>Customized</item>
+    </string-array>
+    <string-array name="SpecificProductCategoriesArray">
+        <item>PTL</item>
+        <item>FTL</item>
+        <item>3PL</item>
+        <item>LTL</item>
+        <item>Air</item>
+        <item>Rail</item>
+        <item>Cold Chain</item>
+        <item>Warehousing</item>
+        <item>Freight Forwarding</item>
+        <item>Movers and Packers</item>
+        <item>Contract Logistics</item>
+    </string-array>
+    <string-array name="TypeOfPlayer">
+        <item>Select Option     </item>
+        <item>Carrier</item>
+        <item>Broker</item>
+        <item>Carrier and Broker</item>
+    </string-array>
+    <string-array name="CategoryOfPlayer">
+        <item>Select Option     </item>
+        <item>Local</item>
+        <item>National</item>
+    </string-array>
+    <string-array name="WebSite">
+        <item/>
+        <item>None, Want 1 Made</item>
+        <item>None, Do not want 1 made</item>
+    </string-array>
+    <string-array name="TypeOfVehicle">
+        <item>Carrier</item>
+        <item>Broker</item>
+        <item>Carrier and Broker</item>
+    </string-array>
+    <string-array name="LocationS">
+        <item>BANGALORE</item>
+        <item>CHENNAI</item>
+        <item>GREATER MUMBAI</item>
+        <item>BHIWANDI</item>
+        <item>DELHI</item>
+        <item>PUNE</item>
+        <item>BARODA</item>
+        <item>AHMEDABAD</item>
+        <item>NOIDA</item>
+        <item>CALCUTTA</item>
+        <item>INDORE</item>
+        <item>BADDI</item>
+        <item>FARIDABAD</item>
+        <item>NAGPUR</item>
+        <item>HYDERABAD</item>
+        <item>RUDRAPUR</item>
+        <item>AURANGABAD</item>
+        <item>GHAZIABAD</item>
+        <item>HOSUR</item>
+        <item>VAPI</item>
+        <item>LUDHIANA</item>
+        <item>GURGAON</item>
+        <item>BHIWADI</item>
+        <item>PANJIM</item>
+        <item>NAVI MUMBAI</item>
+        <item>ZIRAKPUR</item>
+        <item>PITHAMPUR</item>
+        <item>NASIK</item>
+        <item>MUMBAI CITY</item>
+        <item>VASAI</item>
+        <item>PONDICHERRY</item>
+        <item>MANESAR</item>
+        <item>JAMMU</item>
+        <item>HARIDWAR</item>
+        <item>PARWANOO</item>
+        <item>COIMBATORE</item>
+        <item>AGRA</item>
+        <item>JAIPUR</item>
+        <item>KANPUR</item>
+        <item>BARAMATI</item>
+        <item>LUCKNOW</item>
+        <item>BHOPAL</item>
+        <item>MEERUT</item>
+        <item>CHANDIGARH</item>
+        <item>SALEM</item>
+        <item>DEHRADUN</item>
+        <item>TIRUPUR</item>
+        <item>RAJKOT</item>
+        <item>KASHIPUR</item>
+        <item>HOSHIARPUR</item>
+        <item>JALANDHAR</item>
+        <item>UNA</item>
+        <item>COCHIN</item>
+        <item>PHALTAN</item>
+        <item>AHMEDNAGAR</item>
+        <item>AMRITSAR</item>
+        <item>ANKLESHWAR</item>
+        <item>MADURAI</item>
+        <item>SHIRWAL</item>
+        <item>VIJAYAWADA</item>
+        <item>SURAT</item>
+        <item>KARUR</item>
+        <item>RAIPUR</item>
+        <item>MOHALI</item>
+        <item>BAWAL</item>
+        <item>GANGTOK</item>
+        <item>MALERKOTLA</item>
+        <item>SILIGURI</item>
+        <item>DEWAS</item>
+        <item>JAMSHEDPUR</item>
+        <item>GUWAHATI</item>
+        <item>MODINAGAR</item>
+        <item>PATNA</item>
+        <item>VIZIANAGARAM</item>
+        <item>SOLAN</item>
+        <item>BHUBANESHWAR</item>
+        <item>RANIPET</item>
+        <item>SINNAR</item>
+        <item>SIVAKASI</item>
+        <item>ZAHIRABAD</item>
+        <item>BHAVNAGAR</item>
+        <item>YAMUNANAGAR</item>
+        <item>VISHAKHAPATNAM</item>
+        <item>PANIPAT</item>
+        <item>UDAIPUR</item>
+        <item>JUNAGARH</item>
+        <item>BELGAUM</item>
+        <item>MATHURA</item>
+        <item>ROORKEE</item>
+        <item>PALAKKAD</item>
+        <item>MYSORE</item>
+        <item>MORADABAD</item>
+        <item>JABALPUR</item>
+        <item>SHAPAR</item>
+        <item>NEEMRANA</item>
+        <item>RANCHI</item>
+        <item>JAMNAGAR</item>
+        <item>JODHPUR</item>
+        <item>PATIALA</item>
+        <item>KARNAL</item>
+        <item>KHARAGPUR</item>
+        <item>RANGPOO</item>
+        <item>VARANASI</item>
+        <item>MAUNATH BHANJAN</item>
+        <item>ROPAR</item>
+        <item>MORVI</item>
+        <item>DHARWAD</item>
+        <item>ERODE</item>
+        <item>POLLACHI</item>
+        <item>SRINAGAR</item>
+        <item>SATARA</item>
+        <item>AMBUR</item>
+        <item>BHANDARA</item>
+        <item>ALWAR</item>
+        <item>KALA AMB</item>
+        <item>KOLHAPUR</item>
+        <item>ALIGARH</item>
+        <item>RAJPURA</item>
+        <item>CHIPLUN</item>
+        <item>KANNUR</item>
+        <item>ROHTAK</item>
+        <item>REWA</item>
+        <item>CUTTACK</item>
+        <item>MURSHIDABAD</item>
+        <item>HUBLI</item>
+        <item>AMBALA</item>
+        <item>MALDA</item>
+        <item>ALLAHABAD</item>
+        <item>SHANTIPUR</item>
+        <item>MAHAD</item>
+        <item>TRICHY</item>
+        <item>MANGALORE</item>
+        <item>GANDHIDHAM</item>
+        <item>DHULE</item>
+        <item>BARABANKI</item>
+        <item>KOLLAM</item>
+        <item>SATNA</item>
+        <item>TIRUPATI</item>
+        <item>BHADOHI</item>
+        <item>ANAND</item>
+        <item>MEHSANA</item>
+        <item>TUTICORIN</item>
+        <item>BIKANER</item>
+        <item>SOLAPUR</item>
+        <item>BHATINDA</item>
+        <item>HOSPET</item>
+        <item>MALANPUR</item>
+        <item>SHAHJAHANPUR</item>
+        <item>JALNA</item>
+        <item>AJMER</item>
+        <item>AMRAVATI</item>
+        <item>GWALIOR</item>
+        <item>BURDWAN</item>
+        <item>OOTY</item>
+        <item>PALWAL</item>
+        <item>MOGA</item>
+        <item>BAHADURGARH</item>
+        <item>MANKAPUR</item>
+        <item>CUDDALORE</item>
+        <item>THRISSUR</item>
+        <item>SAHARANPUR</item>
+        <item>TIRUNELVELI</item>
+        <item>KOTTAYAM</item>
+        <item>KOTA</item>
+        <item>GORAKHPUR</item>
+        <item>MUZAFFARPUR</item>
+        <item>BHUJ</item>
+        <item>SIKAR</item>
+        <item>KAKINADA</item>
+        <item>ROURKELA</item>
+        <item>CHANDRAPUR</item>
+        <item>RATLAM</item>
+        <item>FAIZABAD</item>
+        <item>FIROZABAD</item>
+        <item>SAMBALPUR</item>
+        <item>BAREILLY</item>
+        <item>GUNTUR</item>
+        <item>BHILAI</item>
+        <item>BHAGALPUR</item>
+        <item>DIBRUGARH</item>
+        <item>CALICUT</item>
+        <item>LATUR</item>
+        <item>TEZPUR</item>
+        <item>JHANSI</item>
+        <item>GAJRAULA</item>
+        <item>AKOLA</item>
+        <item>KORBA</item>
+        <item>BILASPUR</item>
+        <item>DURGAPUR</item>
+        <item>DIMAPUR</item>
+        <item>BERHAMPUR</item>
+        <item>BHILWARA</item>
+        <item>RAIGARH</item>
+        <item>NAGAON</item>
+        <item>KURNOOL</item>
+        <item>BALASORE</item>
+        <item>WARANGAL</item>
+        <item>PATHANKOT</item>
+        <item>HISSAR</item>
+        <item>JALGAON</item>
+        <item>NELLORE</item>
+        <item>SILCHAR</item>
+        <item>ASANSOL</item>
+        <item>MANDI</item>
+        <item>JORHAT</item>
+        <item>IMPHAL</item>
+        <item>DHANBAD</item>
+        <item>UJJAIN</item>
+        <item>SHIMOGA</item>
+        <item>RAMAGUNDAM</item>
+        <item>CUDDAPAH</item>
+        <item>NAVSARI</item>
+        <item>HAJIPUR</item>
+        <item>BARNALA</item>
+        <item>HATHRAS</item>
+        <item>TINSUKIA</item>
+        <item>GULBARGA</item>
+        <item>AGARTALA</item>
+        <item>BOKARO</item>
+        <item>BELLARY</item>
+        <item>RAXAUL</item>
+        <item>RENUKOOT</item>
+        <item>GAYA</item>
+        <item>ITANAGAR</item>
+        <item>BHIWANI</item>
+        <item>HASSAN</item>
+        <item>BHARATPUR</item>
+        <item>BONGAIGAON</item>
+        <item>KATNI</item>
+        <item>DURG</item>
+        <item>MANDIDEEP</item>
+        <item>MHOW</item>
+        <item>MUNGELI</item>
+        <item>SAGOREKUTI</item>
+        <item>ADITYAPUR</item>
+        <item>BAGDOGRA</item>
+        <item>BAHARAGORA</item>
+        <item>BERHAMPORE</item>
+        <item>BIDHAN NAGAR</item>
+        <item>BOKARO STEEL CITY</item>
+        <item>CHANDIL</item>
+        <item>CHAS</item>
+        <item>DANAPUR CANTT</item>
+        <item>DANKUNI</item>
+        <item>DUM DUM</item>
+        <item>HIRAKUD</item>
+        <item>HOOGLY</item>
+        <item>HOWRAH</item>
+        <item>JADAVPUR</item>
+        <item>JALPAIGURI</item>
+        <item>JHARIA</item>
+        <item>KAMARHATI</item>
+        <item>KHARDAN</item>
+        <item>KOLKATA</item>
+        <item>PALIGANJ</item>
+        <item>PATNA CITY</item>
+        <item>RANIPOOL</item>
+        <item>SODPUR</item>
+        <item>TATANAGAR</item>
+        <item>AMB</item>
+        <item>BALLABGARH</item>
+        <item>BAMRAULI</item>
+        <item>BANARAS</item>
+        <item>BARUTIWALA</item>
+        <item>CHIKAMBARPUR</item>
+        <item>DADRI</item>
+        <item>DAURALA</item>
+        <item>DEOBAND</item>
+        <item>DERABASI</item>
+        <item>DHARAMPUR</item>
+        <item>DHARUHERA</item>
+        <item>DUNDAHERA</item>
+        <item>ELECTRONIC CITY - GURGAON</item>
+        <item>ELECTRONIC CITY (NDA)</item>
+        <item>FATEHPUR SIKRI</item>
+        <item>GANGASAHAR</item>
+        <item>GAUTAM BUDH NAGAR</item>
+        <item>GORAYA</item>
+        <item>GREATER NOIDA</item>
+        <item>HALDWANI</item>
+        <item>HANSI</item>
+        <item>HAPUR</item>
+        <item>JAGADHARI</item>
+        <item>JAGDISHPUR</item>
+        <item>JAJMAU</item>
+        <item>JALESAR</item>
+        <item>JHAJJAR</item>
+        <item>JIND</item>
+        <item>JINDAL NAGAR</item>
+        <item>KALKA</item>
+        <item>KAPURTHALA</item>
+        <item>KASNA</item>
+        <item>KHAJURLA</item>
+        <item>KICHHA</item>
+        <item>KOSI KALAN</item>
+        <item>KUNDLI</item>
+        <item>KURUKSHETRA</item>
+        <item>LAL KUAN</item>
+        <item>LALRU</item>
+        <item>MADHOPUR</item>
+        <item>MAHEM</item>
+        <item>MANDI GOVINDGARH</item>
+        <item>MANIMAJRA</item>
+        <item>MAU</item>
+        <item>MAWANA</item>
+        <item>MODIPUR</item>
+        <item>MODIPURAM</item>
+        <item>MOHANNAGAR</item>
+        <item>MUGHAL SARAI</item>
+        <item>MURAD NAGAR</item>
+        <item>MUZAFFARNAGAR</item>
+        <item>NABHA</item>
+        <item>NAHAN</item>
+        <item>NAINI</item>
+        <item>NAJAFGARH</item>
+        <item>NARELA</item>
+        <item>NEW DELHI</item>
+        <item>PANCHKULA</item>
+        <item>PANKI</item>
+        <item>PANTNAGAR</item>
+        <item>PHAGWARA</item>
+        <item>PILKHUA</item>
+        <item>PINJORE</item>
+        <item>PONTASAHIB</item>
+        <item>RAI</item>
+        <item>RAI BAREILLY</item>
+        <item>RAJBAN</item>
+        <item>RAMPUR</item>
+        <item>RAWAT BHATA</item>
+        <item>REWARI</item>
+        <item>RISHIKESH</item>
+        <item>RUPNAGAR</item>
+        <item>S.A.S NAGAR</item>
+        <item>SAHIBABAD</item>
+        <item>SAMALKHA</item>
+        <item>SANEWAL</item>
+        <item>SANGANER</item>
+        <item>SANGRUR</item>
+        <item>SARNA</item>
+        <item>SASNI</item>
+        <item>SATAUN</item>
+        <item>SHAHABAD</item>
+        <item>SHILLAI</item>
+        <item>SHIMLA</item>
+        <item>SHUKLAGUNJ</item>
+        <item>SIKANDRABAD</item>
+        <item>SOHNA</item>
+        <item>SONIPAT</item>
+        <item>SUJANPUR</item>
+        <item>SUNDERNAGAR (HIMACHAL PRADESH)</item>
+        <item>SURAJPUR</item>
+        <item>TAURU</item>
+        <item>UNNAO</item>
+        <item>VRINDAVAN</item>
+        <item>AIZAWL</item>
+        <item>BORJHAR</item>
+        <item>DISPUR</item>
+        <item>MALIGAON</item>
+        <item>NAHARLAGUN</item>
+        <item>SHILONG</item>
+        <item>ALANDUR</item>
+        <item>ALLEPPY</item>
+        <item>ALUVA</item>
+        <item>AMBATTUR</item>
+        <item>ATTIBELE</item>
+        <item>ATTUMANNUR</item>
+        <item>AVADI</item>
+        <item>AVINASHI</item>
+        <item>BHAVANI</item>
+        <item>BIDADI</item>
+        <item>BOLLARAM</item>
+        <item>BOMMASANDRA</item>
+        <item>CHANGANNASERRY</item>
+        <item>COONOOR</item>
+        <item>DAVANAGERE</item>
+        <item>DODDABALLARPUR</item>
+        <item>EDAPALLY</item>
+        <item>ELECTRONIC CITY - BANGALORE</item>
+        <item>ENNORE</item>
+        <item>ERNAKULAM</item>
+        <item>ETTAMANUR</item>
+        <item>GUINDY</item>
+        <item>GUMMUDIPOONDI</item>
+        <item>GURUVAYUR</item>
+        <item>HABSIGUDA</item>
+        <item>HAKIMPET</item>
+        <item>HOSKOTE</item>
+        <item>JEDIMETTLA</item>
+        <item>JIGNI</item>
+        <item>KALMASERRY</item>
+        <item>KANCHIPURAM</item>
+        <item>KARAPAKKAM</item>
+        <item>KOCHI</item>
+        <item>KOMARAPALYAM</item>
+        <item>KOVILAMBAKKAM</item>
+        <item>KOZHIKHODE</item>
+        <item>KUKATPALLY</item>
+        <item>KUMBAKONAM</item>
+        <item>KUMBALGODU</item>
+        <item>MADAMBAKKAM</item>
+        <item>MADHAVARAM</item>
+        <item>MADIVALA</item>
+        <item>MADRAS</item>
+        <item>MANIPAL</item>
+        <item>MARAI MALAI NAGAR</item>
+        <item>MEDAK</item>
+        <item>MEDCHAL</item>
+        <item>MELAKKOTTAIYUR</item>
+        <item>NEELMANGLA</item>
+        <item>NILGIRIS</item>
+        <item>OCHIRA</item>
+        <item>OOTACAMANDU</item>
+        <item>PALA</item>
+        <item>PALGHAT</item>
+        <item>PALLADAM</item>
+        <item>PATANCHERU</item>
+        <item>PEENYA</item>
+        <item>POONAMALLEE</item>
+        <item>PUDDUCHERRY</item>
+        <item>PULIYUR</item>
+        <item>QUILON</item>
+        <item>RAJAMUNDRY</item>
+        <item>RAMACHANDRAPURAM</item>
+        <item>SECUNDERABAD</item>
+        <item>SRIPERUMBUDUR</item>
+        <item>TAMBARAM</item>
+        <item>TENALI</item>
+        <item>THANGASSERY</item>
+        <item>THIRUVANANTHAPURAM</item>
+        <item>THIRUVETTIYUR</item>
+        <item>THRIVILLUR</item>
+        <item>TIRUCHIRAPALLI</item>
+        <item>TIRUVALLA</item>
+        <item>TRICHUR</item>
+        <item>TRIVANDRUM</item>
+        <item>TUMKUR</item>
+        <item>UDAGAMANDAL</item>
+        <item>UDUPI</item>
+        <item>VANAGARAM</item>
+        <item>VELACHERI</item>
+        <item>VELLORE</item>
+        <item>VELUR</item>
+        <item>VIZAG</item>
+        <item>WALTAIR</item>
+        <item>WHITEFIELD</item>
+        <item>YELHANKA</item>
+        <item>YESWANTPUR</item>
+        <item>ADIPUR</item>
+        <item>AIROLI</item>
+        <item>AKURDI</item>
+        <item>ALANDI</item>
+        <item>ALIBAGH</item>
+        <item>AMBERNATH</item>
+        <item>ANJAR</item>
+        <item>ASANGAON</item>
+        <item>ASLALI</item>
+        <item>ATUL</item>
+        <item>BADLAPUR</item>
+        <item>BAHALWANI</item>
+        <item>BAJWA</item>
+        <item>BAWLA</item>
+        <item>BELAPUR</item>
+        <item>BHANDUP</item>
+        <item>BHARUCH</item>
+        <item>BHAYANDHAR</item>
+        <item>BHIGWAN</item>
+        <item>BHILAD</item>
+        <item>BHIWANDI</item>
+        <item>BHOR</item>
+        <item>BICHOLIM</item>
+        <item>BOISAR</item>
+        <item>BOMBAY</item>
+        <item>BUTTIBORI</item>
+        <item>CALANGUTE</item>
+        <item>CHAKAN</item>
+        <item>CHANGODAR</item>
+        <item>CHATTRAL</item>
+        <item>CHIKALTHANA</item>
+        <item>CHINCHWAD</item>
+        <item>CORLIM</item>
+        <item>DABOLI</item>
+        <item>DADRA</item>
+        <item>DAMAN</item>
+        <item>DEVLALI</item>
+        <item>DHANU ROAD</item>
+        <item>DHOLKA</item>
+        <item>DICHOLI</item>
+        <item>DOMBIVILI</item>
+        <item>FERTILIZERNAGAR</item>
+        <item>GANDHINAGAR</item>
+        <item>GHORE BHUDRUK</item>
+        <item>GOA</item>
+        <item>GONDAL</item>
+        <item>HADAPSAR</item>
+        <item>HAJIRA</item>
+        <item>HALOL</item>
+        <item>HATKALANGDA</item>
+        <item>ICHALKARANJI</item>
+        <item>JAISINGHPUR</item>
+        <item>JEJURI</item>
+        <item>JNPT</item>
+        <item>KADI</item>
+        <item>KADODRA</item>
+        <item>KALAMBOLI</item>
+        <item>KALMESHWAR</item>
+        <item>KALOL</item>
+        <item>KALWA</item>
+        <item>KALYAN</item>
+        <item>KANDLA PORT</item>
+        <item>KARAMSAD</item>
+        <item>KARJAT</item>
+        <item>KATREJ</item>
+        <item>KHADKI</item>
+        <item>KHAPOLI</item>
+        <item>KOPARKHAIRNE</item>
+        <item>KURKUMBH</item>
+        <item>LONAVALA</item>
+        <item>LONI</item>
+        <item>MAHAPE</item>
+        <item>MAJORDA</item>
+        <item>MAKARPURA</item>
+        <item>MANJUSAR</item>
+        <item>MANPADA</item>
+        <item>MAPUSA</item>
+        <item>MARGOA</item>
+        <item>MARMAGO</item>
+        <item>MIRA ROAD</item>
+        <item>MIRAJ</item>
+        <item>MULSHI</item>
+        <item>MUMBAI</item>
+        <item>MUNDRA</item>
+        <item>MURBAD</item>
+        <item>NADIAD</item>
+        <item>NAGOTHANA</item>
+        <item>NAIGAON</item>
+        <item>NALA SOPARA</item>
+        <item>NAROL</item>
+        <item>NAVAGAM</item>
+        <item>NERUL</item>
+        <item>NEW BOMBAY</item>
+        <item>OJHAR</item>
+        <item>PALGHAR</item>
+        <item>PALSE</item>
+        <item>PANAJI</item>
+        <item>PANOLI</item>
+        <item>PANVEL</item>
+        <item>PARDA</item>
+        <item>PARDI</item>
+        <item>PATALGANGA</item>
+        <item>PEN</item>
+        <item>PENTHAN</item>
+        <item>PERNEM</item>
+        <item>PHURSUNGHI</item>
+        <item>PIMPRI</item>
+        <item>PIRANGT</item>
+        <item>PONDA</item>
+        <item>POONA</item>
+        <item>POR</item>
+        <item>QUEPEM</item>
+        <item>RABALE</item>
+        <item>RAIGAD</item>
+        <item>RANIA</item>
+        <item>RANJANGAON</item>
+        <item>RASAYANI</item>
+        <item>ROHA</item>
+        <item>SACHIN</item>
+        <item>SANAND</item>
+        <item>SANASWADI</item>
+        <item>SANGHIPURAM</item>
+        <item>SANGLI</item>
+        <item>SANGUEM</item>
+        <item>SARIGAM</item>
+        <item>SARKHEJ</item>
+        <item>SASWAD</item>
+        <item>SAVAR KUNDLA</item>
+        <item>SHIROLI</item>
+        <item>SILVASA</item>
+        <item>SINDEWADI</item>
+        <item>SURENDERNAGAR</item>
+        <item>TALEGAON</item>
+        <item>TALOJA</item>
+        <item>TARAPUR</item>
+        <item>TATAHWADE</item>
+        <item>THANE</item>
+        <item>ULHAS NAGAR</item>
+        <item>UMERGAON</item>
+        <item>URAN</item>
+        <item>URLI KANCHAN</item>
+        <item>VADODARA</item>
+        <item>VALLABH VIDYA NAGAR</item>
+        <item>VALPOI</item>
+        <item>VALSAD</item>
+        <item>VASCO DE GAMA</item>
+        <item>VASHI</item>
+        <item>VATWA</item>
+        <item>VEJALPUR</item>
+        <item>VERNA</item>
+        <item>VITHAL UDYOGNAGAR</item>
+        <item>WADA</item>
+        <item>WADHWAN</item>
+        <item>WADI</item>
+        <item>WAGHODIA</item>
+        <item>WAGHOLI</item>
+        <item>WAGLE</item>
+        <item>WALUJ</item>
+        <item>WARDHA</item>
+        <item>ZUARINAGAR</item>
+        <item>NCR</item>
+    </string-array>
+
+    <string name="title_activity_design_row_a">design_row_a</string>
+    <string name="title_activity_display_details">DisplayDetails</string>
+    <string name="title_activity_verify_send">VerifySend</string>
+    <string name="title_activity_location1">Location1</string>
+    <string name="title_activity_destination">Destination</string>
+    <string name="title_activity_booking">Booking</string>
+    <string name="title_activity_route">Route</string>
+
+</resources>

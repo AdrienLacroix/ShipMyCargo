@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!--
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync"
+        android:id="@+id/buttonSync"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/buttonDelete"/>
+
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text=""
+        android:textStyle="bold"
+
+        android:onClick="onItemClick"
+        android:id="@+id/rowno"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="  "
+
+        android:id="@+id/placeboinrow1"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+
+        android:id="@+id/timestamp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="  "
+
+        android:id="@+id/placeboinrow2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:text=""
+
+        android:id="@+id/syncdetails"/>
+
+</LinearLayout>
+<!-- From: file:/F:/AndroidStudio/ShipMyCargo/app/src/main/res/layout/design_row.xml -->

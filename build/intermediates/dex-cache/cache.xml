@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Dev_Tools\android\adt-bundle-windows-x86_64-20140321\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-4dbdf88a50f5c3e87e7b42b63cd55dd506150c9a.jar" />
+    </item>
+    <item
+        jar="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\pre-dexed\debug\classes-4f6042d21d68c835c25ccaea344732579550de5d.jar" />
+    </item>
+    <item
+        jar="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\pre-dexed\debug\classes-b8a6c06a783c9e1558fb6d5e4378556b89c81853.jar" />
+    </item>
+    <item
+        jar="F:\AndroidStudio\ShipMyCargo\app\libs\googleformuploader.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c778b10662447e6f781ed4daac82e06ce29b55c4">
+        <dex dex="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\pre-dexed\debug\googleformuploader-cfa0b85b6f38420ee8906d68eb4fa729ddd35fd8.jar" />
+    </item>
+    <item
+        jar="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\pre-dexed\debug\classes-8becb31b95831625ea978839d7fa0c44d299815d.jar" />
+    </item>
+    <item
+        jar="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="F:\AndroidStudio\ShipMyCargo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-bc4352ad34d7e02ceb2d41924f698b91e7a13255.jar" />
+    </item>
+
+</items>

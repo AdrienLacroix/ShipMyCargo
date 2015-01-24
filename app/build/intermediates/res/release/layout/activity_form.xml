@@ -1,0 +1,750 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26a69a"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aakashmaroti.fillup.Form" >
+
+    <ScrollView
+        android:id="@+id/theScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/imageButton1"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:imeOptions="actionNext"
+                        android:padding="10dp"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:imeOptions="actionNext"
+                        android:padding="10dp"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:imeOptions="actionNext"
+                        android:padding="10dp"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:imeOptions="actionNext"
+                        android:padding="10dp"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:imeOptions="actionNext"
+                        android:padding="10dp"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/dName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of Company :" />
+
+            <EditText
+                android:id="@+id/NameOfCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address :" />
+
+            <EditText
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Year Established :" />
+
+            <EditText
+                android:id="@+id/Established"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website :" />
+
+            <EditText
+                android:id="@+id/Website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="If none, Yes/No if FREE! quote for website."
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/d1Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Promoter/CEO/HOS :" />
+
+            <EditText
+                android:id="@+id/Promoter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textPersonName"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/ConatactNoPromoter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Number :" />
+
+            <EditText
+                android:id="@+id/ContactNo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="+0123456789,."
+                android:ems="10"
+                android:hint="+910123456789,+91897654321,"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/ConatactPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Person Name :" />
+
+            <EditText
+                android:id="@+id/ContactPerson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ.,/;()"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textPersonName"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/ConatactPersonNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Number :" />
+
+            <EditText
+                android:id="@+id/ContactNo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="+0123456789,."
+                android:ems="10"
+                android:hint="+910123456789,+91897654321,"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/DesignationTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designation :" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/ContactDesignation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-mail id :" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EmailDesignation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ()-,.@_/1234567890"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/BLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Base Location(s) :" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/BaseLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Eg: Kolkata, Jaipur,"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textPostalAddress"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/Minw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minimum Weight(KG) :" />
+
+            <EditText
+                android:id="@+id/MinWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Godown Space (Square Feet) :" />
+
+            <EditText
+                android:id="@+id/GodownSpace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/SPCHtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specific Product Categories Handled:" />
+
+            <EditText
+                android:id="@+id/sProductCategoriesHandles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/nhtfvd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type Of Vehicle :" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/MACTVTypeOfVehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/placeboTV35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product :" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <CheckBox
+                                android:id="@+id/pPTL"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="PTL" />
+
+                            <CheckBox
+                                android:id="@+id/pFTL"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FTL" />
+
+                            <CheckBox
+                                android:id="@+id/p3PL"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3PL" />
+
+                            <CheckBox
+                                android:id="@+id/pLTL"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="LTL" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <CheckBox
+                                android:id="@+id/pAir"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Air" />
+
+                            <CheckBox
+                                android:id="@+id/pRail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rail" />
+
+                            <CheckBox
+                                android:id="@+id/pColdChain"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cold Chain" />
+
+                            <CheckBox
+                                android:id="@+id/pWarehousing"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Warehousing" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <CheckBox
+                                android:id="@+id/pFreightForwarding"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Freight Forwarding" />
+
+                            <CheckBox
+                                android:id="@+id/pMoversPackers"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movers and Packers" />
+
+                            <CheckBox
+                                android:id="@+id/pContractLogistics"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Contract Logistics" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/PcnH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Product not Handled :" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkBoxGlass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Glass" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxOil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oil" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxHazard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harzadous Goods" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Terms :" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/PaymentBooking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Booking" />
+
+                <CheckBox
+                    android:id="@+id/PaymentDelivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery" />
+
+                <CheckBox
+                    android:id="@+id/PaymentCredit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credit" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboaffTV5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/placeboTV345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/placeboaffTVjh5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/placeboTV34cgh5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/nhtfv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="Type Of Player :" />
+
+                <Spinner
+                    android:id="@+id/spinnerTypeOfPlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/TypeOfPlayer"
+                    android:gravity="right"
+                    android:textAlignment="gravity" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV63j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/placeboTV63kl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="Category Of Player :" />
+
+                <Spinner
+                    android:id="@+id/spinnerCategoryOfPlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/CategoryOfPlayer"
+                    android:gravity="right"
+                    android:textAlignment="gravity" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV5gdss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/placeboTV34d5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/placeboTV7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/placeboTVjhuy7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/transitIns"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Transit Insurance :" />
+
+                <Switch
+                    android:id="@+id/switchTransitInsurance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:imeOptions="actionNext" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/DoorPick"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Door Pickup :" />
+
+                <Switch
+                    android:id="@+id/DoorPickUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/DoorDeliveryTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Door Delivery :" />
+
+                <Switch
+                    android:id="@+id/DoorDelivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/DetentionChargesTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Detention Charges :" />
+
+                <Switch
+                    android:id="@+id/DetentionCharges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV7jhl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/PackagingServicetxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Packaging Service :" />
+
+                <Switch
+                    android:id="@+id/PackagingService"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placeboTV8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/dOthers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other Note (if any) :" />
+
+            <EditText
+                android:id="@+id/Others"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords" />
+
+            <TextView
+                android:id="@+id/placeboTV6bj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:id="@+id/Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/ShipMyCargo/app/src/main/res/layout/activity_form.xml -->
